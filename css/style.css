@@ -1,0 +1,51 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #a9a9a9;
+    display: flex;
+}
+
+.sidebar{
+    width: 20%;
+    height: 100vh;
+    margin-top: 10px;
+}
+
+.button{
+    width: 100%;
+    margin-top: 5px;
+}
+
+.button button{
+    width: 90%;
+    height: 70px;
+    border-radius: 10px;
+    margin-left: 5%;
+}
+
+.color{
+width: 100%;
+display: grid;
+height: 90vh;
+grid-template-columns: repeat(3,1fr);
+}
+
+.color div{
+    width: 80%;
+    height: 50px;
+    margin: 10%;
+}
+
+.container{
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(60, 1fr);
+    height: 100vh;
+}
+
+.container div{
+    margin-top: 5px;
+    width: 90%;
+    background-color: white;
+}
+
